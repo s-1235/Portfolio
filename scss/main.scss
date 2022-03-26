@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 * {
   padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 #header-home {
-  background: url('./../img/showcase.jpg') no-repeat center center/cover;
+  background: url("./../img/showcase.jpg") no-repeat center center/cover;
   height: 680px;
   width: 100%;
   overflow: hidden;
@@ -314,7 +314,7 @@ body {
   }
 }
 .nav-all {
-  background: url('../img/showcase.jpg') no-repeat 20% 30% / cover;
+  background: url("../img/showcase.jpg") no-repeat 20% 30% / cover;
   border-bottom: 3px solid $hover-color;
 }
 
@@ -433,7 +433,7 @@ img {
   overflow: hidden;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     top: 0;
@@ -466,7 +466,7 @@ img {
     height: auto;
   }
   &-image:before {
-    content: '';
+    content: "";
     display: block;
     padding-top: 75px;
     overflow: hidden;
@@ -653,4 +653,4 @@ img {
 }
 // end
 
-@import 'mobile';
+@import "mobile";
